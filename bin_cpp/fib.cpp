@@ -28,8 +28,7 @@ u64 fib(u64 fib_n) {
 int main() {
   u64 i;
   std::cin >> i;
-  i += 2;
-  std::cout << fib(i) << std::endl;
+  std::cout << fib(++i) << std::endl;
 
   return 0;
 }
