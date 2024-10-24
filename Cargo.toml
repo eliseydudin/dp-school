@@ -1,0 +1,8 @@
+[package]
+name = "dp-school"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "fib"
+path = "bin/fib.rs"
