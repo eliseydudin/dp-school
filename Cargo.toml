@@ -6,3 +6,7 @@ edition = "2021"
 [[bin]]
 name = "fib"
 path = "bin/fib.rs"
+
+[[bin]]
+name = "trib"
+path = "bin/trib.rs"
