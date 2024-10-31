@@ -10,11 +10,11 @@ int main() {
   std::vector<i64> nums(n + 1, 0);
   nums[0] = nums[1] = 1;
 
-  for (i64 i = 2; i < n + 1; i++) {
+  for (i64 i = 2; i <= n; i++) {
     if (i % 2 == 0) {
-      nums[i] = nums[i / 2] + nums[i / 2 - 1];
+      nums[i] = nums[i / 2] + 1;
     } else {
-      nums[i] = nums[i / 2] - nums[i / 2 - 1];
+      nums[i] = nums[(i - 1) / 2] + nums[(i + 1) / 2] + 1;
     }
   }
 

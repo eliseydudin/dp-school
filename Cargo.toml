@@ -18,3 +18,7 @@ path = "bin/fib_last.rs"
 [[bin]]
 name = "easy_range"
 path = "bin/easy_range.rs"
+
+[[bin]]
+name = "tricky_range"
+path = "bin/tricky_range.rs"
